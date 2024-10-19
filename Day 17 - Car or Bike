@@ -1,0 +1,14 @@
+T = int(input())
+
+# Loop through each test case
+for _ in range(T):
+    # Read the two integers, X and Y
+    X, Y = map(int, input().split())
+    
+    # Compare X and Y and print the appropriate result
+    if X < Y:
+        print("BIKE")
+    elif X > Y:
+        print("CAR")
+    else:
+        print("SAME")
